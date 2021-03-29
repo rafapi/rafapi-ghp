@@ -28,7 +28,7 @@ jobs:
           source-directory: 'public'
           destination-github-username: 'rafapi'
           destination-repository-name: 'rafapi.github.io'
-          user-email: rafapi@gmail.com
+          user-email: rafa@pardinas.co.uk
           commit-message: See ORIGIN_COMMIT
           target-branch: main
       - name: Test get variable exported by push-to-another-repository
