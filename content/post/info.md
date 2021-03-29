@@ -7,6 +7,6 @@ draft: false
 
 This is a first post that will serve as a test for the pagination plugin.
 
-There won be anything of value here for now.
+There won't be anything of value here for now.
 
 ![Testing image](/post/images/web-application-testing.png)
