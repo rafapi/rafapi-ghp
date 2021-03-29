@@ -3,7 +3,7 @@ languageCode = "en-GB"
 title = "Portfolio"
 theme = "hugo-theme-casper"
 paginate = 4
-Copyright = "rafapi 2021"
+Copyright = "All rights reserved"
 canonifyurls = true
 
 [params]
