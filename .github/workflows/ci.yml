@@ -30,5 +30,6 @@ jobs:
           destination-repository-name: 'rafapi.github.io'
           user-email: rafapi@gmail.com
           commit-message: See ORIGIN_COMMIT
+          target-branch: main
       - name: Test get variable exported by push-to-another-repository
         run: echo $DESTINATION_CLONED_DIRECTORY
