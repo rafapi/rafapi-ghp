@@ -1,0 +1,50 @@
+baseurl = "https://rafapi.github.io/"
+languageCode = "en-GB"
+title = "Portfolio"
+theme = "hugo-theme-casper"
+paginate = 4
+Copyright = "rafapi 2021"
+canonifyurls = true
+
+[params]
+description = "Personal ML portfolio"
+authorlocation = "authorlocation"
+cover = "images/cover.png"
+## save the image you want to use as background picture in directory "./static/images"
+author = "Rafael Pardinas"
+# logo = "images/logo.png"
+## save the image you want to use as website logo in directory "./static/images"(delete this line when editing)
+githubName = "rafapi"
+linkedinName = "Rafael Pardinas"
+email = "your email"
+hideHUGOSupport = false
+
+# here are the buttons on the menu
+[[menu.main]]
+name = "Home" # Button will display as "Home"
+weight = 100 # the weight decides the position of the button (higher or lower)
+identifier = "home"
+pre = "<br />"
+url = "/"
+
+[[menu.main]]
+name = "Contact"
+weight = 1
+identifier = "contact" # this button will refer to a markdown file named "contact" in the content folder
+pre = "<br />"
+url = "/contact"
+
+[[menu.main]]
+name = "About"
+weight = 40
+identifier = "about" # this button will refer to a markdown file named "about" in the content folder
+pre = "<br />"
+url = "/about"
+
+[permalinks]
+post = "/:slug/"
+
+[sitemap]
+ChangeFreq = ""
+Filename = "sitemap.xml"
+Priority = "-1"
