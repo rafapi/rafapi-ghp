@@ -1,5 +1,5 @@
 # rafapi-ghp
-Source code for my personal website
+Source code for my personal portfolio
 
 ### Init
 ```
